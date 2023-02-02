@@ -21,6 +21,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(661, 331)
+        MainWindow.setFixedHeight(331)
+        MainWindow.setFixedWidth(661)
         MainWindow.setStyleSheet(".QMainWindow{\n"
 "    background-color:rgb(45, 45, 45);\n"
 "}")
